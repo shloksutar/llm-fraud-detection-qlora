@@ -1,0 +1,18 @@
+# Core ML
+torch
+transformers
+datasets
+accelerate
+
+# Parameter-efficient fine-tuning and supervised fine-tuning
+peft
+trl
+
+# 4-bit quantization
+bitsandbytes
+
+# Data processing / evaluation utilities used in the notebook
+scikit-learn
+
+# Hugging Face Hub upload and authentication
+huggingface_hub
