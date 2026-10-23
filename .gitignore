@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+token
+token.*
+
+# Hugging Face / model caches
+.cache/
+.cache/huggingface/
+huggingface/
+hub/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs and experiment logs
+fraud-detector/
+output/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Local datasets and generated artifacts
+data/
+datasets/
+*.csv
+*.parquet
+*.jsonl
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
